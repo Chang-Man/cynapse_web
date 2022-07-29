@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Profile.module.scss';
+import styles from '../../styles/Profile.module.scss';
 import {Avatar, Card, CardContent, Typography} from "@mui/material";
 
 
