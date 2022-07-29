@@ -1,24 +1,19 @@
 import './App.css';
-import Profile from './Profile';
-import ChrisLee from './Image/ChrisLee.jpg';
-import ReactPageScroller from 'react-page-scroller';
+import ReactPageScroller from "react-page-scroller";
+import Page1 from "./components/Page1";
+import Page2 from "./components/Page2";
+
 
 function App() {
-  return (
-    <ReactPageScroller>
-      <Profile
-        role={'Developer'}
-        belong={'서울대학교 컴퓨터공학부'}
-        contact={'hdchris765@snu.ac.kr'}
-        imgSrc={ChrisLee}
-        name={'이하동'}
-      ></Profile>
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-    </ReactPageScroller>
-  );
+    return (
+        <div className={"wrapper"}>
+            <ReactPageScroller >
+                <Page1></Page1>
+                <Page2></Page2>
+            </ReactPageScroller>
+        </div>
+
+    );
 }
 
 export default App;
