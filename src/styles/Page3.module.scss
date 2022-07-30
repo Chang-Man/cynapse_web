@@ -1,6 +1,23 @@
 .wrapper {
   margin-top: 65px;
+  height: calc(100% - 65px);
+
+  p {
+    margin: 0;
+    display: inline-block;
+  }
+  .header {
+    color: #446ff2;
+  }
   .imagineImg {
     width: 200px;
+  }
+  .myBrand {
+    font-size: larger;
+    color: #446ff2;
+    font-weight: bolder;
+  }
+  .todo {
+    font-size: large;
   }
 }
