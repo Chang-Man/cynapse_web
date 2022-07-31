@@ -6,12 +6,10 @@ import styles from '../../styles/Page3.module.scss';
 const Page3 = () => {
   return (
     <div className={styles.wrapper}>
-      <div>
-        <Typography variant='h5' align='center'>
-          서로의 니즈를 충족시키는 <br />{' '}
-          <p className={styles.header}>최상의 팀 매칭</p>
-        </Typography>
-      </div>
+      <Typography variant='h5' align='center'>
+        서로의 니즈를 충족시키는 <br />{' '}
+        <p className={styles.header}>최상의 팀 매칭</p>
+      </Typography>
 
       <Typography align='center' sx={{ wordBreak: 'keep-all' }}>
         회사에서 시키는 일이 아니라, <br />{' '}
