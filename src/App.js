@@ -9,6 +9,7 @@ function App() {
   return (
     <ThemeProvider theme={THEME}>
       <div className={'wrapper'}>
+        <header className={'header'}>dd</header>
         <ReactPageScroller>
           <Page1></Page1>
           <Page2></Page2>

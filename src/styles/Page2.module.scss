@@ -1,9 +1,30 @@
 .wrapper {
-  margin-top: 65px;
   width: 100%;
   height: calc(100% - 65px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
+
+.header {
+  margin-bottom: 20px;
+}
+
+.mainUp {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mainBottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 80%;
+}
+
+
