@@ -3,7 +3,7 @@ import { Box, Grid, Typography } from '@mui/material';
 
 const Page4 = () => {
   return (
-    <Grid container height='100%' direction='column' alignItems='center'>
+    <Grid container direction='column' alignItems='center'>
       <Grid item>
         <Typography>
           그러나 Cynapse work room에서는 한 가지만 잘 해도 브랜드를 운영할 수
