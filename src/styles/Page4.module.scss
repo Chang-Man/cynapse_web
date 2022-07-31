@@ -1,0 +1,18 @@
+.wrapper {
+  width: 100%;
+  height: calc(100% - 65px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  .workRoom {
+    font-size: x-large;
+    color: #446ff2;
+  }
+  .text {
+    display: inline-block;
+  }
+  .teamWorkImg {
+    width: 300px;
+  }
+}
