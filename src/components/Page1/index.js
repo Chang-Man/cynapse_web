@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from '../../styles/Page1.module.scss'
-import Logo from '../Image/Cynapse_Logo.png'
-import developer from '../Image/developer.png'
-import marketer from '../Image/marketer.png'
-import designer from '../Image/designer.png'
+import Logo from '../../public/images/Cynapse_Logo.png'
+import developer from '../../public/images/developer.png'
+import marketer from '../../public/images/marketer.png'
+import designer from '../../public/images/designer.png'
 
 import {Avatar, Box, Divider, Typography} from "@mui/material";
 
