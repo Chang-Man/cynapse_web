@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Grid, Typography } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import Imagine from '../../public/images/imagine.png';
 import styles from '../../styles/Page3.module.scss';
 
@@ -9,9 +9,9 @@ const Page3 = () => {
       className={styles.wrapper}
       container
       bottom={0}
-      direction='column
-    '
-      // justifyContent='center'
+      direction='column'
+      height={'100%-65px'}
+      marginTop={'65px'}
       alignItems='center'
       spacing={5}
     >
