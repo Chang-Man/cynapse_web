@@ -1,15 +1,19 @@
-import './App.css';
+import styles from './App.module.scss';
 import ReactPageScroller from 'react-page-scroller';
 import Page1 from './components/Page1';
 import Page2 from './components/Page2';
 import Page3 from './components/Page3';
 import { ThemeProvider, createTheme } from '@mui/material';
 import Page4 from './components/Page4';
+import Logo from './public/images/Cynapse_Logo_white.png';
+
 function App() {
   return (
     <ThemeProvider theme={THEME}>
-      <div className={'wrapper'}>
-        <header className={'header'}>dd</header>
+      <div className={styles.wrapper}>
+        <header className={styles.header}>
+          <img src={Logo} alt={'logo'} className={styles.logo} />
+        </header>
         <ReactPageScroller>
           <Page1></Page1>
           <Page2></Page2>
