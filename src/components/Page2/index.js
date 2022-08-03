@@ -1,25 +1,58 @@
 import React from 'react';
 import styles from "../../styles/Page2.module.scss";
-import {Box, Button, Divider, Typography} from "@mui/material";
-import community from '../../public/images/community.png';
-import work_alone from '../../public/images/work_alone.png';
-import {ArrowRightAlt} from "@mui/icons-material";
+import {Avatar, Box, Button, Divider, Typography} from "@mui/material";
+import {ArrowDownward} from "@mui/icons-material";
 
+import clock from '../../public/images/clock.png';
+import money from '../../public/images/money.png';
 
 const Page2 = () => {
     return (
         <div className={styles.wrapper}>
             <header className={styles.header}>
                 <Typography variant={'h5'}>
-                    Cynapse Work Room
-                    <br/>
-                    :커뮤니티 기반 브랜드 운영
+                    커뮤니티 기반 브랜드 운영
                 </Typography>
             </header>
 
-            <Divider sx={{width: "100%", borderBottomWidth: '3px', marginBottom: '20px'}}></Divider>
+            <Divider sx={{width: "80%", borderBottomWidth: '3px', marginBottom: '5px'}}></Divider>
 
-            <div className={styles.mainUp}>
+            <Typography variant={'h6'} align={'center'} sx={{wordBreak: 'keep-all'}}>
+                혼자서는 <span style={{color: '#446ff2'}}>돈도, 시간도</span> 많이 필요한
+                <br/>
+                패션 브랜드 창업
+            </Typography>
+
+            <br/>
+
+            <Box sx={{width: 320, height: 120}} display={'flex'} justifyContent={'center'}>
+                <Avatar alt={"money"} src={money} sx={{width: 120, height: 120, margin: 0}}/>
+                <Avatar alt={"clock"} src={clock} sx={{width: 120, height: 120, margin: 0}}/>
+            </Box>
+
+            <br/>
+
+            <Typography align={'center'} sx={{wordBreak: 'keep-all'}} fontSize={17} >
+                <span style={{color: '#446ff2'}}>다양한 역량</span>의 사람들이 모인 커뮤니티를 통해
+                <br/>
+                패션 브랜드 운영의 시간과 비용을 절감해보세요.
+            </Typography>
+            <br/>
+            <Typography align={'center'} sx={{wordBreak: 'keep-all'}}>
+                긱워커 시대,  <span style={{color: '#446ff2'}}>Cynapse work room</span>에서는
+                <br/>
+                패션 브랜드 창업 역시 사이드 프로젝트로 가능합니다.
+            </Typography>
+            <br/>
+
+            <Box display={'flex'} justifyContent={'center'}>
+                <Button variant={'outlined'}>
+                    [워크룸 #2 신청하기]
+                </Button>
+            </Box>
+
+
+            {/*<div className={styles.mainUp}>
                 <Box display={'flex'} flexDirection={'column'} alignItems={'center'}
                      sx={{width: 160, height: 'auto', border: "3px solid black", borderRadius: "10px"}}>
                     <img src={work_alone} style={{width: 50, height: 50}} alt="alt"/>
@@ -34,6 +67,7 @@ const Page2 = () => {
                 <Box display={'flex'} flexDirection={'column'} alignItems={'center'}
                      sx={{width: 180, height: 'auto', border: "3px solid black", borderRadius: "10px"}}>
                     <img src={community} style={{width: 50, height: 50}} alt="alt"/>
+
                     <Typography variant={'h6'}>
                         시간&비용의 절감
                     </Typography>
@@ -81,7 +115,7 @@ const Page2 = () => {
                 </Box>
 
 
-            </footer>
+            </footer>*/}
 
 
         </div>
