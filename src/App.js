@@ -6,16 +6,13 @@ import Page3 from './components/Page3';
 import { ThemeProvider, createTheme, IconButton } from '@mui/material';
 import Page4 from './components/Page4';
 import Logo from './public/images/Cynapse_Logo_white.png';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Page9 from './components/Page9';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0);
 
-  useEffect(() => {
-    console.log(currentPage);
-  }, [currentPage, setCurrentPage]);
   return (
     <ThemeProvider theme={THEME}>
       <div className={styles.wrapper}>
