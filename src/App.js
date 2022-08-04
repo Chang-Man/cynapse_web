@@ -8,6 +8,7 @@ import Page4 from './components/Page4';
 import Logo from './public/images/Cynapse_Logo_white.png';
 import { useState } from 'react';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import Page5_6 from "./components/Page5_6";
 import Page9 from './components/Page9';
 
 function App() {
@@ -34,10 +35,11 @@ function App() {
           }}
           customPageNumber={currentPage}
         >
-          <Page1></Page1>
-          <Page2></Page2>
-          <Page3></Page3>
-          <Page4 />
+          <Page1/>
+          <Page2/>
+          <Page3/>
+          <Page4/>
+          <Page5_6/>
           <Page9 />
         </ReactPageScroller>
       </div>
