@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "../../styles/Page5_6.module.scss";
-import {Avatar, Box, Divider, Typography} from "@mui/material";
+import {Box, Divider, Typography} from "@mui/material";
 import SNU from "../../public/images/SNU.png";
 import KT from "../../public/images/KT.png";
 
