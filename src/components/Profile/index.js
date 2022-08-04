@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from '../../styles/Profile.module.scss';
-import {Avatar, Card, CardContent, Link, Typography} from "@mui/material";
+import {Avatar, Typography} from "@mui/material";
 import {Box} from "@mui/system";
 
 
@@ -20,12 +19,12 @@ const Profile = ({name, imgSrc, role, profile, belong}) => {
                 <Typography>
                     {role}
                 </Typography>
-                {profile ? <a style={{
+                {profile ? <a target={"_blank"} style={{
                     fontFamily: 'NotoSans',
                     fontSize: 14,
                     fontWeight: 800,
                     color:"black",
-                }} href={`https://${profile}`}>{profile}</a> : "temp"}
+                }} rel="noreferrer" href={`https://${profile}`}>{profile}</a> : "temp"}
 
                 {/*<Typography color={"text.secondary"}>
 
