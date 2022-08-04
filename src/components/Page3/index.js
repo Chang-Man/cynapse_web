@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import Imagine from '../../public/images/imagine.png';
 import styles from '../../styles/Page3.module.scss';
 

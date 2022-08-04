@@ -6,16 +6,14 @@ import Page3 from './components/Page3';
 import { ThemeProvider, createTheme, IconButton } from '@mui/material';
 import Page4 from './components/Page4';
 import Logo from './public/images/Cynapse_Logo_white.png';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Page5_6 from "./components/Page5_6";
+import Page9 from './components/Page9';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0);
 
-  useEffect(() => {
-    console.log(currentPage);
-  }, [currentPage, setCurrentPage]);
   return (
     <ThemeProvider theme={THEME}>
       <div className={styles.wrapper}>
@@ -31,6 +29,7 @@ function App() {
           <ArrowUpwardIcon fontSize='large' />
         </IconButton>
         <ReactPageScroller
+          animationTimer={700}
           pageOnChange={(num) => {
             setCurrentPage(num);
           }}
@@ -41,6 +40,7 @@ function App() {
           <Page3/>
           <Page4/>
           <Page5_6/>
+          <Page9 />
         </ReactPageScroller>
       </div>
     </ThemeProvider>
