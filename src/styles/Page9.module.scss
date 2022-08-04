@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  height: calc(100% - 65px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  span {
+    display: inline-block;
+    margin: 0;
+  }
+  .teamImg {
+    width: 400px;
+  }
+
+  .normal {
+    font-size: 1rem;
+    color: black;
+  }
+  .stronger {
+    display: inline-block;
+    font-size: large;
+  }
+  .color {
+    color: #009900;
+  }
+}
