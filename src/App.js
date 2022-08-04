@@ -10,6 +10,7 @@ import { useState } from 'react';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Page5_6 from "./components/Page5_6";
 import Page9 from './components/Page9';
+import Page7 from "./components/Page7";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -40,6 +41,7 @@ function App() {
           <Page3/>
           <Page4/>
           <Page5_6/>
+          <Page7/>
           <Page9 />
         </ReactPageScroller>
       </div>

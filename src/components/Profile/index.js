@@ -1,28 +1,38 @@
 import React from 'react';
 import styles from '../../styles/Profile.module.scss';
-import {Avatar, Card, CardContent, Typography} from "@mui/material";
+import {Avatar, Card, CardContent, Link, Typography} from "@mui/material";
+import {Box} from "@mui/system";
 
 
-const Profile = ({name, imgSrc, role, contact, belong}) => {
+const Profile = ({name, imgSrc, role, profile, belong}) => {
     return (
-        <Card sx={{width: 250, justifyContent:'center'}}>
-            <CardContent sx={{justifyContent:'center'}}>
-                <Avatar alt={name} src={imgSrc} sx={{ width: 'auto', height: 'auto', margin:0}}/>
-                <Typography variant="h5">
-                    {name}
-                </Typography>
-                <Typography color={"text.secondary"}>
-                    {role}
-                </Typography>
-                <Typography>
+        <Box sx={{width: 200}}>
+            <Box sx={{display: 'flex', justifyContent: 'center'}}>
+                <Avatar alt={name} src={imgSrc} sx={{width: '80%', height: 'auto', margin: 0}}/>
+            </Box>
+            <Typography align={'center'} variant="h6">
+                {name}
+            </Typography>
+            <Box sx={{paddingLeft: '15px'}}>
+                <Typography width={'fit-content'} color={"#446ff2"}>
                     {belong}
                 </Typography>
-                <Typography color={"text.secondary"}>
-                    {contact}
+                <Typography>
+                    {role}
                 </Typography>
+                {profile ? <a style={{
+                    fontFamily: 'NotoSans',
+                    fontSize: 14,
+                    fontWeight: 800,
+                    color:"black",
+                }} href={`https://${profile}`}>{profile}</a> : "temp"}
 
-            </CardContent>
-        </Card>
+                {/*<Typography color={"text.secondary"}>
+
+                </Typography>*/}
+            </Box>
+
+        </Box>
     );
 };
 
