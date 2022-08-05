@@ -1,0 +1,26 @@
+.wrapper {
+  width: 100%;
+  height: calc(100% - 65px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .suit {
+    font-size: larger;
+    color: #6cccff;
+    text-shadow: -2px 0 #034aa6, 0 2px #034aa6, 2px 0 #034aa6, 0 -2px #034aa6;
+  }
+  .border {
+    color: whitesmoke;
+    text-shadow: -2px 0 #034aa6, 0 2px #034aa6, 2px 0 #034aa6, 0 -2px #034aa6;
+  }
+  .hoodie {
+    font-size: larger;
+    color: #f2b84b;
+    text-shadow: -2px 0 #034aa6, 0 2px #034aa6, 2px 0 #034aa6, 0 -2px #034aa6;
+  }
+  .small {
+    text-shadow: -1px 0 #034aa6, 0 1px #034aa6, 1px 0 #034aa6, 0 -1px #034aa6;
+  }
+}

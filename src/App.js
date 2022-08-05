@@ -9,6 +9,8 @@ import Logo from './public/images/Cynapse_Logo_white.png';
 import { useState } from 'react';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Page9 from './components/Page9';
+import Page8 from './components/Page8';
+import Page8_5 from './components/Page8_5';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -38,6 +40,8 @@ function App() {
           <Page2></Page2>
           <Page3></Page3>
           <Page4 />
+          <Page8 />
+          <Page8_5 />
           <Page9 />
         </ReactPageScroller>
       </div>
