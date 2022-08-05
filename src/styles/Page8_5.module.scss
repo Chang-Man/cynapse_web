@@ -3,7 +3,7 @@
   height: calc(100% - 65px);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   .stronger {
     color: #f2b84b;
@@ -12,6 +12,10 @@
     font-size: larger;
     color: #6cccff;
     text-shadow: -2px 0 #034aa6, 0 2px #034aa6, 2px 0 #034aa6, 0 -2px #034aa6;
+  }
+
+  .txt2 {
+    margin-right: 10px;
   }
   .border {
     color: whitesmoke;
