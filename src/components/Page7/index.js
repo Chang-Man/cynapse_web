@@ -3,6 +3,7 @@ import Profile from "../Profile";
 import ChrisLee from "../../public/images/ChrisLee.jpg";
 import ChangChang from "../../public/images/ChangChang.jpg";
 import JungWooJae from "../../public/images/JungWooJae.jpg";
+import CURVESIGN from "../../public/images/Curvesign.png";
 import styles from "../../styles/Page7.module.scss";
 import {Box} from "@mui/system";
 
@@ -12,14 +13,14 @@ const Page7 = () => {
             <Box sx={{mb:8}} display={"flex"} justifyContent={'space-around'}>
                 <Profile name={"정우재"} profile={null}
                          belong={"서울대학교 역사교육과"} role={"Product Manager"} imgSrc={JungWooJae}/>
-                <Profile name={"이하동"} profile={null}
-                         belong={"서울대학교 컴퓨터공학부"} role={"Development"} imgSrc={ChrisLee}/>
+                <Profile name={"CURVESIGN"} profile={null}
+                         belong={"서울대학교 컴퓨터공학부"} role={"Designer"} imgSrc={CURVESIGN}/>
             </Box>
             <Box display={"flex"} justifyContent={'space-around'}>
                 <Profile name={"이하동"} profile={"github.com/ChrisLee02"}
-                         belong={"서울대학교 컴퓨터공학부"} role={"Development"} imgSrc={ChrisLee}/>
+                         belong={"서울대학교 컴퓨터공학부"} role={"Developer"} imgSrc={ChrisLee}/>
                 <Profile name={"김창아"} profile={"github.com/Chang-Man"}
-                         belong={"서울대학교 컴퓨터공학부"} role={"Development"} imgSrc={ChangChang}/>
+                         belong={"서울대학교 컴퓨터공학부"} role={"Developer"} imgSrc={ChangChang}/>
 
             </Box>
 

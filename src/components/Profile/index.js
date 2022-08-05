@@ -9,7 +9,7 @@ const Profile = ({ name, imgSrc, role, profile, belong }) => {
         <Avatar
           alt={name}
           src={imgSrc}
-          sx={{ width: 120, height: 'auto', margin: 0 }}
+          sx={{backgroundColor:'white', width: 120, height: 120, margin: 0 }}
         />
       </Box>
       <Typography align={'center'} variant='h6'>
