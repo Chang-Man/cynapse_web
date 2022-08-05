@@ -6,7 +6,7 @@ import styles from '../../styles/Page8_5.module.scss';
 const Page8_5 = () => {
   return (
     <div className={styles.wrapper}>
-      <Typography color={'#446ff2'} variant='h5' marginBottom={'30px'}>
+      <Typography align={'center'} variant='h5' marginBottom={'30px'}>
         Cynapse work room #1 <br />
         kick off
       </Typography>
@@ -20,18 +20,17 @@ const Page8_5 = () => {
         <Box
           component='img'
           sx={{
-            maxWidth: { xs: 180, md: 100 },
+            maxWidth: { xs: 150, md: 100 },
           }}
           alt='img1'
           src={suitImg2}
         />
-        <Typography>
-          <span className={`${styles.suit} ${styles.small}`}>일</span> 을
-          사랑하는 <br />
+        <span>
+          일을 사랑하는 <br />
           분들을 위한 <br />
           <span className={`${styles.suit} ${styles.small}`}>Suit&nbsp;</span>
           제품과{' '}
-        </Typography>
+        </span>
       </Box>
 
       <Box
@@ -40,21 +39,20 @@ const Page8_5 = () => {
         justifyContent={'space-evenly'}
         alignItems={'center'}
       >
-        <Typography>
-          <span className={`${styles.hoodie} ${styles.small}`}>놀이</span>를
-          좋아하는 <br />
+        <span>
+          놀이를 좋아하는 <br />
           분들을 위한 <br />
           <span className={`${styles.hoodie} ${styles.small}`}>
             Hoodie&nbsp;
           </span>
-          제품을 통해 <br />
+          제품으로 <br />
           많은 공감을 <br />
           이끌고자 합니다.
-        </Typography>
+        </span>
         <Box
           component='img'
           sx={{
-            maxWidth: { xs: 180, md: 100 },
+            maxWidth: { xs: 150, md: 100 },
           }}
           alt='img1'
           src={suitImg3}

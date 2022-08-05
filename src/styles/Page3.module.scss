@@ -3,23 +3,25 @@
   height: calc(100% - 65px);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  span {
+    margin-bottom: 10%;
+  }
   p {
     margin: 0;
   }
   .header {
-    color: #446ff2;
+    color: '#FF5126';
+  }
+  .stronger {
+    color: #ff5126;
   }
   .imagineImg {
     width: 200px;
   }
   .myBrand {
-    font-size: larger;
     color: #446ff2;
     font-weight: bolder;
-  }
-  .todo {
-    font-size: large;
   }
 }
