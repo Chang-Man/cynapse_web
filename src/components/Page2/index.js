@@ -9,8 +9,8 @@ import money from '../../public/images/money.png';
 const Page2 = () => {
     return (
         <div className={styles.wrapper}>
-            <header className={styles.header}>
-                <Typography variant={'h5'}>
+            <header style={{marginBottom:'5px'}}>
+                <Typography fontSize={28} fontWeight={900}>
                     커뮤니티 기반 브랜드 운영
                 </Typography>
             </header>
@@ -38,7 +38,7 @@ const Page2 = () => {
                 패션 브랜드 운영의 시간과 비용을 절감해보세요.
             </Typography>
             <br/>
-            <Typography align={'center'} sx={{wordBreak: 'keep-all'}}>
+            <Typography sx={{textDecoration: 'underline', textUnderlineOffset: '3px', wordBreak: 'keep-all'}} align={'center'} >
                 긱워커 시대,  <span style={{color: '#446ff2'}}>Cynapse work room</span>에서는
                 <br/>
                 패션 브랜드 창업 역시 사이드 프로젝트로 가능합니다.
