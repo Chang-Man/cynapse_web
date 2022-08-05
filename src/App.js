@@ -8,12 +8,11 @@ import Page4 from './components/Page4';
 import Logo from './public/images/Cynapse_Logo_white.png';
 import { useState } from 'react';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
-import Page5_6 from "./components/Page5_6";
+import Page5_6 from './components/Page5_6';
 import Page9 from './components/Page9';
 import Page8 from './components/Page8';
 import Page8_5 from './components/Page8_5';
-import Page7 from "./components/Page7";
-
+import Page7 from './components/Page7';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -30,7 +29,7 @@ function App() {
             setCurrentPage(0);
           }}
         >
-          <ArrowUpwardIcon fontSize='large' />
+          <ArrowUpwardIcon fontSize='1' />
         </IconButton>
         <ReactPageScroller
           animationTimer={700}
@@ -39,13 +38,12 @@ function App() {
           }}
           customPageNumber={currentPage}
         >
-
-          <Page1/>
-          <Page2/>
-          <Page3/>
-          <Page4/>
-          <Page5_6/>
-          <Page7/>
+          <Page1 />
+          <Page2 />
+          <Page3 />
+          <Page4 />
+          <Page5_6 />
+          <Page7 />
           <Page8 />
           <Page8_5 />
 

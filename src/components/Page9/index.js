@@ -7,18 +7,14 @@ import { Box } from '@mui/system';
 const Page9 = () => {
   return (
     <div className={styles.wrapper}>
-      <Typography variant='h5' color={'#446ff2'}>
-        Cynapse work room #2 <br />{' '}
-        <span className={styles.normal}>
-          와 함께할 유능한 분들을 찾고 있습니다.
-        </span>{' '}
+      <Typography variant='h5' align={'center'}>
+        Cynapse work room #2 <br /> <br />
         <br />
-        <br />
-        <span className={styles.normal}>
-          Cynapse work room #1을 이어 <br />
-          work room #2를 진행할 유능할 분들을 모집합니다.
-        </span>
       </Typography>
+      <span className={styles.normal} align='center'>
+        Cynapse work room #1에 이어 <br />
+        work room #2를 진행할 <br /> 유능할 분들을 모집합니다.
+      </span>
 
       <img
         className={styles.teamImg}
@@ -32,17 +28,21 @@ const Page9 = () => {
         justifyItems={'center'}
         alignItems={'center'}
       >
-        <Typography>
-          패션 브랜드를 만드는 데 있어 <br />
-          자신이 어떤 기여를 할 수 있는지 알려주세요. <br />
+        <span align={'center'}>
+          어떤 기여를 할 수 있는지 알려주세요. <br />
           최상의 결과물을 낼 수 있도록 <br />
-          <span className={`${styles.stronger} ${styles.color}`}>
-            &nbsp;최상의 팀&nbsp;
-          </span>{' '}
-          을 매칭해드립니다. <br />
+          <span className={`${styles.stronger}`}>&nbsp;최상의 팀&nbsp;</span> 을
+          매칭해드립니다. <br />
           <br />
-        </Typography>
-        <Button style={{ width: 'fit-content' }} variant={'outlined'}>
+        </span>
+        <Button
+          style={{
+            width: 'fit-content',
+            color: '#FF5126',
+            border: '2px solid #FF5126',
+          }}
+          variant={'outlined'}
+        >
           [워크룸 #2 신청하기]
         </Button>
       </Box>

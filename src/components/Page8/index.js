@@ -7,17 +7,9 @@ import styles from '../../styles/Page8.module.scss';
 const Page8 = () => {
   return (
     <div className={styles.wrapper}>
-      <Typography color={'#446ff2'} variant='h5' marginBottom={'30px'}>
+      <Typography align='center' variant='h5' marginBottom={'30px'}>
         Cynapse work room #1 <br />
         kick off
-      </Typography>
-      <Typography variant='h5'>
-        <span className={styles.suit}>Suit</span>{' '}
-        <span className={styles.border}>&</span>{' '}
-        <span className={styles.hoodie}>Hoodie</span> 는 <br /> 자유를 추구하는{' '}
-        <br /> 모든 워커들과 플레이어들을
-        <br />
-        위한 브랜드입니다.
       </Typography>
       <Box
         component='img'
@@ -27,7 +19,17 @@ const Page8 = () => {
         }}
         alt='img1'
         src={suitImg1}
+        marginBottom={'10%'}
       />
+      <span align={'center'}>
+        <span className={styles.suit}>Suit</span>{' '}
+        <span className={styles.border}>&</span>{' '}
+        <span className={styles.hoodie}>Hoodie</span> 는 <br /> 자유를 추구하는{' '}
+        <br /> 모든 워커들과 플레이어들을
+        <br />
+        위한 브랜드입니다.
+      </span>
+
       {/* <Box
     width={'100%'}
     display={'flex'}
