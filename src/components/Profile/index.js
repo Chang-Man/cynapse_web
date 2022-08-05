@@ -5,15 +5,15 @@ import {Box} from "@mui/system";
 
 const Profile = ({name, imgSrc, role, profile, belong}) => {
     return (
-        <Box sx={{width: 200}}>
+        <Box sx={{width: 190}}>
             <Box sx={{display: 'flex', justifyContent: 'center'}}>
-                <Avatar alt={name} src={imgSrc} sx={{width: '80%', height: 'auto', margin: 0}}/>
+                <Avatar alt={name} src={imgSrc} sx={{width: 120, height: 'auto', margin: 0}}/>
             </Box>
             <Typography align={'center'} variant="h6">
                 {name}
             </Typography>
-            <Box sx={{paddingLeft: '15px'}}>
-                <Typography width={'fit-content'} color={"#446ff2"}>
+            <Box sx={{display: 'flex', flexDirection:'column', alignItems: 'center'}}>
+                <Typography fontSize={14} variant={'body1'} width={'fit-content'} color={"#446ff2"}>
                     {belong}
                 </Typography>
                 <Typography>
