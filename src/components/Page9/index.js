@@ -7,7 +7,7 @@ import { Box } from '@mui/system';
 const Page9 = () => {
   return (
     <div className={styles.wrapper}>
-      <Typography variant='h4' color={'#446ff2'}>
+      <Typography variant='h5' color={'#446ff2'}>
         Cynapse work room #2 <br />{' '}
         <span className={styles.normal}>
           와 함께할 유능한 분들을 찾고 있습니다.
