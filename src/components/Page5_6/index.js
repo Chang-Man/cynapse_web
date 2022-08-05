@@ -37,7 +37,8 @@ const Page5_6 = () => {
         Cynapse work room #1에서는
         <br />
         <br />
-        <span className={styles.stronger}>KTY &nbsp;Top5</span> 일러스트레이터와
+        <span className={styles.stronger}>curvesign &nbsp;</span>{' '}
+        일러스트레이터와
         <br />
         <span className={styles.stronger}>서울대학교</span> 출신 개발자 및
         기획자가

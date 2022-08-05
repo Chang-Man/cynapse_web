@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../styles/Page1.module.scss';
-import mainImg from '../../public/images/mainImg.jpg';
+import Logo from '../../public/images/Cynapse_Logo_white_only.png';
 
 import { Avatar, Box, Divider, Typography } from '@mui/material';
 
@@ -27,7 +27,7 @@ const Page1 = () => {
         </div>
       </Box>
       <Divider style={{ width: '80%', marginBottom: 5 }} />
-      <img className={styles.mainImg} src={mainImg} alt={'mainImg'} />
+      <img className={styles.mainImg} src={Logo} alt={'mainImg'} />
       <span align={'center'}>다양한 사람들과 협업해</span>
       <span>하나의 브랜드를 만들어보세요.</span>
       {/*<Box sx={{width: 320, height: 300}} justifyContent="left">
