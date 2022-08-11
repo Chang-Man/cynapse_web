@@ -9,40 +9,22 @@ import Curvesign from '../../public/images/curvesign.jpg';
 
 const Page7 = () => {
   return (
-    <div className={styles.wrapper}>
-      <Box sx={{ mb: 8 }} display={'flex'} justifyContent={'space-around'}>
-        <Profile
-          name={'정우재'}
-          profile={null}
-          belong={'서울대학교 역사교육과'}
-          role={'Product Manager'}
-          imgSrc={JungWooJae}
-        />
-        <Profile
-          name={'이하동'}
-          profile={null}
-          belong={'서울대학교 컴퓨터공학부'}
-          role={'Development'}
-          imgSrc={Curvesign}
-        />
-      </Box>
-      <Box display={'flex'} justifyContent={'space-around'}>
-        <Profile
-          name={'이하동'}
-          profile={'github.com/ChrisLee02'}
-          belong={'서울대학교 컴퓨터공학부'}
-          role={'Development'}
-          imgSrc={ChrisLee}
-        />
-        <Profile
-          name={'김창아'}
-          profile={'github.com/Chang-Man'}
-          belong={'서울대학교 컴퓨터공학부'}
-          role={'Development'}
-          imgSrc={ChangChang}
-        />
-      </Box>
-    </div>
+        <div className={styles.wrapper}>
+            <Box sx={{mb:8}} display={"flex"} justifyContent={'space-around'}>
+                <Profile name={"정우재"} profile={null}
+                         belong={"서울대학교 역사교육과"} role={"Product Manager"} imgSrc={JungWooJae}/>
+                <Profile name={"CURVESIGN"} profile={null}
+                         belong={"서울대학교 컴퓨터공학부"} role={"Designer"} imgSrc={CURVESIGN}/>
+            </Box>
+            <Box display={"flex"} justifyContent={'space-around'}>
+                <Profile name={"이하동"} profile={"github.com/ChrisLee02"}
+                         belong={"서울대학교 컴퓨터공학부"} role={"Developer"} imgSrc={ChrisLee}/>
+                <Profile name={"김창아"} profile={"github.com/Chang-Man"}
+                         belong={"서울대학교 컴퓨터공학부"} role={"Developer"} imgSrc={ChangChang}/>
+
+            </Box>
+
+        </div>
   );
 };
 

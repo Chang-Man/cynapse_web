@@ -26,9 +26,8 @@ const Page1 = () => {
           </Typography>
         </div>
       </Box>
-      <Divider style={{ width: '80%', marginBottom: 5 }} />
-      <img className={styles.mainImg} src={Logo} alt={'mainImg'} />
-      <span align={'center'}>다양한 사람들과 협업해</span>
+      <img style={{marginTop:"40px"}} className={styles.mainImg} src={Logo} alt={'mainImg'} />
+      <span>다양한 사람들과 협업해</span>
       <span>하나의 브랜드를 만들어보세요.</span>
       {/*<Box sx={{width: 320, height: 300}} justifyContent="left">
                 <div className={styles.roleBox}>

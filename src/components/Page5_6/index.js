@@ -12,9 +12,11 @@ const Page5_6 = () => {
         <br />
         #1 kick off
       </Typography>
+
       <span>지난 6월 1차 모집 및 팀매칭의 결과, </span>
       <span>Cynapse의 첫번 째 브랜드가 만들어졌습니다.</span>
       <span>브랜드 'suit & hoodie'와 구성원을 소개합니다!</span>
+
       <br />
 
       <br />

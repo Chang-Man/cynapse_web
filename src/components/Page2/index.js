@@ -15,6 +15,7 @@ const Page2 = () => {
         </Typography>
       </header>
 
+
       <Typography
         marginBottom={'15%'}
         align={'center'}
