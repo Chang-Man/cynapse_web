@@ -13,9 +13,6 @@ const Page5_6 = () => {
         #1 kick off
       </Typography>
 
-      <Divider
-        sx={{ width: '80%', borderBottomWidth: '3px', marginBottom: '5px' }}
-      ></Divider>
 
       <br />
 

@@ -1,6 +1,5 @@
 import React from 'react';
-import {Avatar, Typography} from '@mui/material';
-import {Box} from '@mui/system';
+import {Avatar, Box} from '@mui/material';
 
 const Profile = ({name, imgSrc, role, profile, belong}) => {
     return (
@@ -27,7 +26,6 @@ const Profile = ({name, imgSrc, role, profile, belong}) => {
 
                 {profile ? (
                     <a
-
                         target={'_blank'}
                         style={{
                             fontFamily: 'NotoSans',
@@ -42,9 +40,7 @@ const Profile = ({name, imgSrc, role, profile, belong}) => {
                         {profile}
                     </a>
                 ) : (
-                    <Box fontSize={12} sx={{display: 'flex', justifyContent: 'center'}}>
-                        {'tmp'}
-                    </Box>
+                    null
                 )}
 
                 {/*<Typography color={"text.secondary"}>

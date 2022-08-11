@@ -15,9 +15,6 @@ const Page2 = () => {
         </Typography>
       </header>
 
-      <Divider
-        sx={{ width: '80%', borderBottomWidth: '3px', marginBottom: '5px' }}
-      ></Divider>
 
       <Typography
         marginBottom={'15%'}
