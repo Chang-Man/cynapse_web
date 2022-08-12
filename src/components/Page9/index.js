@@ -35,16 +35,21 @@ const Page9 = () => {
           매칭해드립니다. <br />
           <br />
         </span>
-        <Button
-          style={{
-            width: 'fit-content',
-            color: '#FF5126',
-            border: '2px solid #FF5126',
-          }}
-          variant={'outlined'}
+        <a
+          href='https://docs.google.com/forms/d/e/1FAIpQLSeejKVxSfvKtocNr55_2d9sRQWGKZzxLz42Qg_JdjDDw7Nqyw/viewform'
+          target='_blank'
         >
-          [워크룸 #2 신청하기]
-        </Button>
+          <Button
+            style={{
+              width: 'fit-content',
+              color: '#FF5126',
+              border: '2px solid #FF5126',
+            }}
+            variant={'outlined'}
+          >
+            [워크룸 #2 신청하기]
+          </Button>
+        </a>
       </Box>
     </div>
   );

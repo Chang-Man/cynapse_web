@@ -7,29 +7,20 @@ import KT from '../../public/images/KT.png';
 const Page5_6 = () => {
   return (
     <div className={styles.wrapper}>
-      <Typography align={'center'} variant={'h5'} marginBottom={'20%'}>
+      <Typography align={'center'} variant={'h5'} marginBottom={'15%'}>
         <span>Cynapse work room</span>
         <br />
         #1 kick off
       </Typography>
 
+      <span>지난 6월 1차 모집 및 팀매칭의 결과, </span>
+      <span>Cynapse의 첫번 째 브랜드가 만들어졌습니다.</span>
+      <span>브랜드 'suit & hoodie'와 구성원을 소개합니다!</span>
 
       <br />
 
       <br />
-      {/* <Box
-        sx={{ width: 320, height: 120 }}
-        display={'flex'}
-        justifyContent={'space-around'}
-        alignItems={'center'}
-      >
-        <img alt={'KT'} src={KT} style={{ width: 50, height: 50, margin: 0 }} />
-        <img
-          alt={'SNU'}
-          src={SNU}
-          style={{ width: 50, height: 50, margin: 0 }}
-        />
-      </Box> */}
+
       <span align={'center'}>
         Cynapse work room #1에서는
         <br />

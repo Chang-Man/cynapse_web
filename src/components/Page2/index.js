@@ -51,14 +51,19 @@ const Page2 = () => {
       <br />
 
       <Box display={'flex'} justifyContent={'center'}>
-        <Button
-          style={{
-            border: '1px solid rgb(255, 81, 38)',
-            color: 'rgb(255, 81, 38)',
-          }}
+        <a
+          href='https://docs.google.com/forms/d/e/1FAIpQLSeejKVxSfvKtocNr55_2d9sRQWGKZzxLz42Qg_JdjDDw7Nqyw/viewform'
+          target='_blank'
         >
-          [워크룸 #2 신청하기]
-        </Button>
+          <Button
+            style={{
+              border: '1px solid rgb(255, 81, 38)',
+              color: 'rgb(255, 81, 38)',
+            }}
+          >
+            [워크룸 #2 신청하기]
+          </Button>
+        </a>
       </Box>
 
       {/*<div className={styles.mainUp}>
