@@ -4,17 +4,17 @@ import ChrisLee from '../../public/images/ChrisLee.jpg';
 import ChangChang from '../../public/images/ChangChang.jpg';
 import JungWooJae from '../../public/images/JungWooJae.jpg';
 import styles from '../../styles/Page7.module.scss';
-import { Box } from '@mui/system';
+import {Box} from '@mui/system';
 import Curvesign from '../../public/images/curvesign.jpg';
 
 const Page7 = () => {
-  return (
+    return (
         <div className={styles.wrapper}>
-            <Box sx={{mb:8}} display={"flex"} justifyContent={'space-around'}>
+            <Box sx={{mb: 8}} display={"flex"} justifyContent={'space-around'}>
                 <Profile name={"정우재"} profile={null}
                          belong={"서울대학교 역사교육과"} role={"Product Manager"} imgSrc={JungWooJae}/>
                 <Profile name={"CURVESIGN"} profile={null}
-                         belong={"서울대학교 컴퓨터공학부"} role={"Designer"} imgSrc={CURVESIGN}/>
+                         belong={"서울대학교 컴퓨터공학부"} role={"Designer"} imgSrc={Curvesign}/>
             </Box>
             <Box display={"flex"} justifyContent={'space-around'}>
                 <Profile name={"이하동"} profile={"github.com/ChrisLee02"}
@@ -25,7 +25,7 @@ const Page7 = () => {
             </Box>
 
         </div>
-  );
+    );
 };
 
 export default Page7;
